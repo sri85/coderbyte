@@ -1,7 +1,7 @@
 def ArithGeo(lst):
     array1 =[]
     array2 =[]
-    for i in range(4):
+    for i in range(len(lst)-1):
         array1.append(lst[i+1]-lst[i])
         array2.append(lst[i+1]/lst[i])
         
