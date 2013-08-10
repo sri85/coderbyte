@@ -9,4 +9,6 @@ Feel free to fork the repository .
 
 Instructions for running:
 
-Just download the script files and run them from your terminal.
+Just download the script files and run them from your terminal.  These scripts are validated against python 2.7
+
+Enjoy coding :)
