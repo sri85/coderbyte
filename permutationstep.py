@@ -1,6 +1,7 @@
 def PermutationStep(num):
     numStr = str(num)
     mylist =[]
+    finalNum = 0
     
     if(len(numStr)>3):
         firstTwo = numStr[0:2]
@@ -14,8 +15,11 @@ def PermutationStep(num):
             mylist.sort(reverse=True)
     
     
-    print firstTwo
-    print firstTwo+''.join(mylist)
     
+    finalNum=firstTwo+''.join(mylist)
+    if(num == int(finalNum)):
+        return -1
+    else:
+        return int(finalNum)
     
-PermutationStep(11121)
+print PermutationStep(999)
